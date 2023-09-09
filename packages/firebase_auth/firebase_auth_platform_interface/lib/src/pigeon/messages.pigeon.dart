@@ -1067,7 +1067,7 @@ class FirebaseAuthHostApi {
     } else if (replyList.length > 1) {
       print(replyList);
       throw PlatformException(
-        code: replyList[0]! as int,
+        code: 'code {replyList[0]}',
         message: replyList[1] as String?,
         details: replyList[2],
       );
