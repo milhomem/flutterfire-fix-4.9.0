@@ -17,12 +17,12 @@ dependencies:
   firebase_auth_platform_interface:
     git:
       url: https://github.com/milhomem/flutterfire-fix-4.9.0
-      ref: master
+      ref: 6b33f099c4a64c37e1e00cb22c207821b87f6dad
       path: packages/firebase_auth/firebase_auth_platform_interface
   firebase_auth_web:
     git:
       url: https://github.com/milhomem/flutterfire-fix-4.9.0
-      ref: master
+      ref: 6b33f099c4a64c37e1e00cb22c207821b87f6dad
       path: packages/firebase_auth/firebase_auth_web
   firebase_core: ^2.15.1
   firebase_core_platform_interface: ^4.8.0
