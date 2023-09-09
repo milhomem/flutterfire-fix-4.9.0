@@ -1065,8 +1065,9 @@ class FirebaseAuthHostApi {
         message: 'Unable to establish connection on channel.',
       );
     } else if (replyList.length > 1) {
+      print(replyList);
       throw PlatformException(
-        code: replyList[0]! as String,
+        code: replyList[0]! as int,
         message: replyList[1] as String?,
         details: replyList[2],
       );
